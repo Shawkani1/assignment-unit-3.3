@@ -48,16 +48,12 @@ let zeroes = [];
 for (let supplyChange of supplyChanges){
 if (supplyChanges > 0){
     positives.push;
-};
- else if (supplyChanges < 0){
+} else if (supplyChanges < 0){
     negatives.push;
- };
-   
-else (supplyChanges == 0){
+ } else (supplyChanges === 0)
     zeroes.push; 
 };
 
-}
 console.log('6. Looping through supplyChanges to populate arrays with positive, negative, and zero values:');
 
 
